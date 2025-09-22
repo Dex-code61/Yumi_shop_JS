@@ -1,0 +1,68 @@
+
+
+.icon{
+    width: 35px;
+    height: 35px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid var(--color-border);
+    transition: all 0.3s ease;
+    scale: 2;
+    margin: 0 5px;
+    border-color: #fff;
+    margin-top: 45px;
+}
+
+.icon:first-child{
+    margin-left: 45px;
+}
+
+.icon:hover{
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+    opacity: 0.8;
+}
+
+.icon ion-icon{
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+
+.icon.primary{
+    background-color: var(--color-primary);
+}
+
+.icon.primary ion-icon{
+    color: var(--color-surface);
+}
+
+.icon.secondary{
+    background-color: var(--color-secondary) ;
+}
+.icon.secondary ion-icon{
+    color: var(--color-primary);
+}
+
+.icon.error{
+    background-color: var(--color-error);
+}
+.icon.error ion-icon{
+    color: var(--color-on-error);
+}
+
+
+.icon.ghost{
+    background-color: transparent;
+    backdrop-filter: blur(4px);
+    border: 1px solid var(--color-border);
+}
+.icon.ghost ion-icon{
+    color: var(--color-gray);
+}
