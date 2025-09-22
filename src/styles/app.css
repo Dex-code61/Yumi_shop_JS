@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --color-primary: #6200ee;
+  --color-primary-variant: #3700b3;
+    --color-secondary: #03dac6;
+    --color-secondary-variant: #018786;
+    --color-background: #f5f5f5;
+    --color-surface: #ffffff;
+    --color-error: #b00020;
+    --color-success: #4caf50;
+    --color-warning: #ff9800;
+    --color-border: #e0e0e0;
+    --font-family-primary: 'Roboto', sans-serif;
+    --font-family-secondary: 'Indie Flower', cursive;
+    --font-size-small: 0.875rem;
+    --font-size-medium: 1rem;
+    --font-size-large: 1.25rem;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family-primary);
+}
+body{
+    background-color: var(--color-background);
+    width: 100%;
+    min-height: 100vh;
+}
