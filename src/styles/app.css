@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('./components/index..css');
 :root {
   --color-primary: #6200ee;
   --color-primary-variant: #3700b3;
