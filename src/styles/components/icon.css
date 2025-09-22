@@ -6,10 +6,11 @@
     border: none;
     outline: none;
     border-radius: 50%;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-size: contain;
     background-repeat: no-repeat;
-    vertical-align: middle;
     cursor: pointer;
     border: 1px solid var(--color-border);
     transition: all 0.3s ease;
